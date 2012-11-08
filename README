@@ -16,8 +16,7 @@ how to:
 7. press F8 to generate ctags and cscope file in the root folder.
 
 install Clang_Complete
-1. apt-get install libclang1 and libclang-dev (clang?)
-2. to the "Clang_Complete" plugin folder and type"make install"
+1. apt-get install libclang1 and libclang-dev
 
 generate ctags
 1. ctags -R --c++-kinds=+p --fields=+iaS --extra=+q /usr/include
