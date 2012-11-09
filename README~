@@ -1,0 +1,25 @@
+
+install step:
+1. git submodule init
+2. git submodule update
+3. ln ~/.vim/.vimrc ~/.vimrc
+4. install ctags and cscope
+5. install Clang_Complete
+
+how to:
+1. press F2 to toggle NerdTree
+2. press F3 to toggle taglist
+3. press F4 to toggle quickFix
+4. press F7 to execute ":Grep" 
+5. press F5 to execute ":make"
+6. execute ":A" to switch between cpp file and h file
+7. press F8 to generate ctags and cscope file in the root folder.
+
+install Clang_Complete
+1. apt-get install libclang1 and libclang-dev (clang?)
+2. to the "Clang_Complete" plugin folder and type"make install"
+
+generate ctags
+1. ctags -R --c++-kinds=+p --fields=+iaS --extra=+q /usr/include
+2. ctags -R *
+
